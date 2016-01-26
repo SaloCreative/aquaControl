@@ -8,7 +8,7 @@ var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var notify = require("gulp-notify");
 var livereload = require('gulp-livereload');
-var themePath = 'public_html/app/';
+var themePath = 'public_html/';
 
 var paths = {
     sass: themePath + 'scss/*.scss',
@@ -23,7 +23,7 @@ var dest = {
 
 /* Compile Our Sass */
 gulp.task('sass', function() {
-    return gulp.src(themePath + 'scss/main.scss')
+    return gulp.src(themePath + 'scss/app.scss')
         .pipe(sass())
         .on('error', notify.onError({
             message: "Error: <%= error.message %>",
