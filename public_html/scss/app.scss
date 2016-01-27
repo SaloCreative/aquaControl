@@ -1,1 +1,43 @@
 @import "reset.scss";
+body {
+  font-family: Helvetic Neue, Helvetica, Arial, sans-serif;
+}
+
+@mixin clearfix {
+  &::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+
+section {
+  clear: both;
+  width: 100%;
+  padding: 20px 0;
+  background: #ccc;
+  @include clearfix;
+}
+.row {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.column {
+  display: block;
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  &.width-3 {
+    width: 100%;
+  }
+}
+.panel {
+  padding: 20px;
+  background: #eaeaea;
+  &.alerts {
+    background: #ca4436;
+    color: #fff;
+  }
+}
