@@ -6,6 +6,6 @@ error_reporting(E_ALL);
 <head>
     <title>Aquarium Monitor</title>
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/app.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>

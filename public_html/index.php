@@ -2,9 +2,6 @@
 
     <header id="Masthead">
         <a href="/" title="Home">Dashboard</a>
-    </header>
-
-    <section id="primary">
         <ul>
             <li><a href="/">Sensing requirements</a>
                 <ul>
@@ -22,6 +19,11 @@
                 </ul>
             </li>
         </ul>
+    </header>
+
+    <section id="primary">
+
     </section>
+
 
 <?php include('includes/footer.php'); ?>
