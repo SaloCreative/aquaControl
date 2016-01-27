@@ -41,3 +41,14 @@ section {
     color: #fff;
   }
 }
+ul {
+  margin: 20px 0 0 20px;
+  list-style: disc;
+  li {
+    line-height: 20px;
+  }
+  ul {
+    margin: 0 0 0 20px;
+    list-style: circle;
+  }
+}

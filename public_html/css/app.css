@@ -62,3 +62,12 @@ section {
   .panel.alerts {
     background: #ca4436;
     color: #fff; }
+
+ul {
+  margin: 20px 0 0 20px;
+  list-style: disc; }
+  ul li {
+    line-height: 20px; }
+  ul ul {
+    margin: 0 0 0 20px;
+    list-style: circle; }
