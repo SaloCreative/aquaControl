@@ -5,9 +5,9 @@
             <a href="/" title="Home" class="logo"><img src="/images/logo.png" /></a>
             <div class="status">
                 <ul>
+                    <li>Receiving data</li>
                     <li>Notifications</li>
                     <li>Sensors</li>
-                    <li>Receiving data</li>
                 </ul>
             </div>
         </div>

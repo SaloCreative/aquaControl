@@ -42,8 +42,7 @@ a.logo {
 section {
   clear: both;
   width: 100%;
-  padding: 20px 0;
-  background: #ccc; }
+  padding: 0px 0 20px; }
   section::after {
     content: '';
     clear: both;
