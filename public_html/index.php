@@ -5,9 +5,14 @@
             <a href="/" title="Home" class="logo"><img src="/images/logo.png" /></a>
             <div class="status">
                 <ul>
-                    <li>Receiving data</li>
-                    <li>Notifications</li>
-                    <li>Sensors</li>
+                    <li class="data">Receiving data</li>
+                    <li class="alerts">2 Warnings</li>
+                    <li class="pumpSpeed">54% Power</li>
+                    <li class="water-level">
+                        <span>Display 165L</span>
+                        <span>Sump 30L</span>
+                    </li>
+                    <li class="temperature">Display 26.6&deg;c | Sump 27.2&deg;c</li>
                 </ul>
             </div>
         </div>

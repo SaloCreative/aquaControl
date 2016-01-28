@@ -18,6 +18,30 @@ a.logo {
     width: 100%;
   }
 }
+.status {
+  float: right;
+  width: 40%;
+  ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    li {
+      width: 100%;
+      span {
+        float: left;
+        padding-left: 50px;
+        padding-right: 10px;
+        border-right: 1px solid #333;
+        box-sizing: border-box;
+        display: block;
+        line-height: 30px;
+        background: url(../images/tank-ok.png) no-repeat 10px center;
+        background-size: 30px;
+      }
+    }
+
+  }
+}
 
 section {
   clear: both;
@@ -27,7 +51,7 @@ section {
 }
 .row {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 800px;
 }
 .column {
   display: block;
