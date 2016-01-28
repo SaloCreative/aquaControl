@@ -10,6 +10,14 @@ body {
     display: block;
   }
 }
+a.logo {
+  padding: 10px 0;
+  float: left;
+  width: 240px;
+  img {
+    width: 100%;
+  }
+}
 
 section {
   clear: both;

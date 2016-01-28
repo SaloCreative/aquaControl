@@ -32,6 +32,13 @@ table {
 body {
   font-family: Helvetic Neue, Helvetica, Arial, sans-serif; }
 
+a.logo {
+  padding: 10px 0;
+  float: left;
+  width: 240px; }
+  a.logo img {
+    width: 100%; }
+
 section {
   clear: both;
   width: 100%;

@@ -1,8 +1,16 @@
 <?php include('includes/header.php'); ?>
 
     <header id="Masthead">
-        <a href="/" title="Home">Dashboard</a>
-
+        <div class="row">
+            <a href="/" title="Home" class="logo"><img src="/images/logo.png" /></a>
+            <div class="status">
+                <ul>
+                    <li>Notifications</li>
+                    <li>Sensors</li>
+                    <li>Receiving data</li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <section id="primary">
