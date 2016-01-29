@@ -9,8 +9,8 @@
                     <li class="alerts">2 Warnings</li>
                     <li class="pumpSpeed">54% Power</li>
                     <li class="water-level">
-                        <span>Display 165L</span>
-                        <span>Sump 30L</span>
+                        <span> 165L</span>
+                        <span class="sump"> 30L</span>
                     </li>
                     <li class="temperature">Display 26.6&deg;c | Sump 27.2&deg;c</li>
                 </ul>

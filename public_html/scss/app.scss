@@ -27,19 +27,32 @@ a.logo {
     margin: 0;
     li {
       width: 100%;
+      margin-bottom: 10px;
+      @include clearfix;
       span {
         float: left;
-        padding-left: 50px;
+        padding-left: 40px;
         padding-right: 10px;
+        margin-right: 10px;
         border-right: 1px solid #333;
         box-sizing: border-box;
         display: block;
         line-height: 30px;
-        background: url(../images/tank-ok.png) no-repeat 10px center;
+        background: url(../images/tank-ok.png) no-repeat left center;
         background-size: 30px;
+        &.sump {
+          background: url(../images/sump-ok.png) no-repeat left center;
+          background-size: 30px;
+          border-right: none;
+        }
+      }
+      &.pumpSpeed {
+        padding-left: 40px;
+        background: url(../images/pump.png) no-repeat left center;
+        background-size: 30px;
+        line-height: 30px;
       }
     }
-
   }
 }
 
